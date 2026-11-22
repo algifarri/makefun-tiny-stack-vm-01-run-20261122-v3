@@ -1,0 +1,6 @@
+# makefun-tiny-stack-vm-01-run-20261122-v3
+[![make.fun · tiny-stack-vm-01-run-20261122](https://make.fun/badge/tiny-stack-vm-01-run-20261122.svg)](https://make.fun/bounty/tiny-stack-vm-01-run-20261122?utm_source=github&utm_medium=readme&utm_campaign=tiny-stack-vm-01-run-20261122)
+[![rank](https://make.fun/badge/tiny-stack-vm-01-run-20261122/algifarri/makefun-tiny-stack-vm-01-run-20261122-v3/rank.svg)](https://make.fun/bounty/tiny-stack-vm-01-run-20261122/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=tiny-stack-vm-01-run-20261122)
+[![reward](https://make.fun/badge/tiny-stack-vm-01-run-20261122/algifarri/makefun-tiny-stack-vm-01-run-20261122-v3/reward.svg)](https://make.fun/bounty/tiny-stack-vm-01-run-20261122/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=tiny-stack-vm-01-run-20261122)
+
+A single-file interpreter for the tiny stack ISA v1, written from the spec for this run. It executes each program on typed-array state (stack, call stack, memory), throws trap codes as numbers so a trap keeps the output written before it, and takes care with the sharp edges: exact `Math.imul` multiplication, INT_MIN / -1, unsigned division and comparison, 5-bit shift masks, and sign-extended PUSH8.
